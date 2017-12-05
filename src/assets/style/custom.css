@@ -1,0 +1,21 @@
+.mint-swipe-items-wrap{
+	line-height: 6rem;
+}
+.mint-swipe-item img{
+	width: 100%;
+}
+.mint-swipe-indicators{
+    bottom: 0.47rem;
+}
+.mint-swipe-indicator {
+    width: 0.34rem;
+    height: 0.34rem;
+    display: inline-block;
+    border-radius: 100%;
+    background: rgba(153,153,153,1);
+    opacity: 1;
+    margin: 0 0.38rem;
+}
+.mint-swipe-indicators .mint-swipe-indicator.is-active {
+    background: #fbb817;
+}
