@@ -1,6 +1,6 @@
 <template>
-	<div class="nav">
-		<div class="nav-inner">
+	<div>
+		<div>
 			<div>
 				底部内容
 			</div>
