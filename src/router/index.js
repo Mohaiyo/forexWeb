@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 const Home = r => require.ensure([], () => r(require('@/pages/index')), 'home')
+const Index = r => require.ensure([], () => r(require('@/pages/home/index')), 'home')
 // const staffQul = r => require.ensure([], () => r(require('src/pages/staff/staffQul')), 'staff')
 // const staffMes = r => require.ensure([], () => r(require('src/pages/staff/staffMes')), 'staff')
 // const staffBasicMes = r => require.ensure([], () => r(require('src/pages/staff/staffBasicMes')), 'staff')
@@ -23,6 +24,12 @@ export default new Router({
   },
   routes: [
     { path: '', redirect: '/home' },
-    { path: '/home', component: Home }
+    { path: '/home',
+      component: Home,
+      children: [
+        { path: '', redirect: 'index' },
+        { path: 'index', component: Index, alias: '/a' }
+      ]
+    }
   ]
 })

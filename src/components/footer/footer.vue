@@ -1,18 +1,15 @@
 <template>
 	<div class="nav">
 		<div class="nav-inner">
-			<div class="logo">
-				<a href="#"><img src="/src/assets/images/nav-logo.png" alt=""></a>
-			</div>
 			<div>
-				菜单列表
+				底部内容
 			</div>
 		</div>
 	</div>
 </template>
 <script>
 export default {
-  name: 'headNav',
+  name: 'footer',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
