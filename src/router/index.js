@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 const Home = r => require.ensure([], () => r(require('@/pages/index')), 'home')
 const Index = r => require.ensure([], () => r(require('@/pages/home/index')), 'home')
-// const staffQul = r => require.ensure([], () => r(require('src/pages/staff/staffQul')), 'staff')
-// const staffMes = r => require.ensure([], () => r(require('src/pages/staff/staffMes')), 'staff')
-// const staffBasicMes = r => require.ensure([], () => r(require('src/pages/staff/staffBasicMes')), 'staff')
-// const staffRank = r => require.ensure([], () => r(require('src/pages/staff/staffRank')), 'staff')
+const Intro = r => require.ensure([], () => r(require('@/pages/intro/intro')), 'intro')
+const HalfAnhour = r => require.ensure([], () => r(require('@/pages/halfAnhour/halfAnhour')), 'halfAnhour')
+const TradeType = r => require.ensure([], () => r(require('@/pages/tradeType/tradeType')), 'tradeType')
+const AboutUs = r => require.ensure([], () => r(require('@/pages/aboutUs/aboutUs')), 'aboutUs')
 // const gmCheck = r => require.ensure([], () => r(require('src/pages/gmCheck/gmCheck')), 'gmCheck')
 Vue.use(Router)
 
@@ -28,7 +28,11 @@ export default new Router({
       component: Home,
       children: [
         { path: '', redirect: 'index' },
-        { path: 'index', component: Index, alias: '/a' }
+        { path: 'index', component: Index, alias: '/a' },
+        { path: 'intro', component: Intro },
+        { path: 'halfAnhour', component: HalfAnhour },
+        { path: 'tradeType', component: TradeType },
+        { path: 'aboutUs', component: AboutUs }
       ]
     }
   ]

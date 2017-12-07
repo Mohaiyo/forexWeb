@@ -9,78 +9,78 @@
 					<a href="/">首页</a>
 				</li>
 				<li>
-					<a href="#">APP功能介绍</a>
+					<router-link to="intro">APP功能介绍</router-link>
 					<ul class="sub-ul">
 						<li>
-							<a href="#">外汇券商开户</a>
+							<router-link to="#">外汇券商开户</router-link>
 						</li>
 						<li>
-							<a href="#">充值提现</a>
+							<router-link to="#">充值提现</router-link>
 						</li>
 						<li>
-							<a href="#">交易行情</a>
+							<router-link to="#">交易行情</router-link>
 						</li>
 						<li>
-							<a href="#">新增交易品种</a>
+							<router-link to="#">新增交易品种</router-link>
 						</li>
 						<li style="border:none;">
-							<a href="#">开仓平仓</a>
+							<router-link to="#">开仓平仓</router-link>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">半小时学外汇</a>
+					<router-link to="halfAnhour">半小时学外汇</router-link>
 					<ul class="sub-ul">
 						<li>
-							<a href="#">交易优势</a>
+							<router-link to="#">交易优势</router-link>
 						</li>
 						<li>
-							<a href="#">基础知识</a>
+							<router-link to="#">基础知识</router-link>
 						</li>
 						<li>
-							<a href="#">如何阅读图表</a>
+							<router-link to="#">如何阅读图表</router-link>
 						</li>
 						<li>
-							<a href="#">交易示例</a>
+							<router-link to="#">交易示例</router-link>
 						</li>
 						<li>
-							<a href="#">最佳时间</a>
+							<router-link to="#">最佳时间</router-link>
 						</li>
 						<li style="border:none;">
-							<a href="#">半小时学会</a>
+							<router-link to="#">半小时学会</router-link>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">交易品种</a>
+					<router-link to="tradeType">交易品种</router-link>
 					<ul class="sub-ul">
 						<li>
-							<a href="#">贵金属</a>
+							<router-link to="#">贵金属</router-link>
 						</li>
 						<li>
-							<a href="#">外汇</a>
+							<router-link to="#">外汇</router-link>
 						</li>
 						<li>
-							<a href="#">原油</a>
+							<router-link to="#">原油</router-link>
 						</li>
 						<li style="border:none;">
-							<a href="#">指数CFD</a>
+							<router-link to="#">指数CFD</router-link>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<a href="#">关于我们</a>
+					<router-link to="aboutUs">关于我们</router-link>
 					<ul class="sub-ul">
 						<li>
-							<a href="#">公司简介</a>
+							<router-link to="#">公司简介</router-link>
 						</li>
 						<li style="border:none;">
-							<a href="#">蚂蚁外汇简介</a>
+							<router-link to="#">蚂蚁外汇简介</router-link>
 						</li>
 					</ul>
 				</li>
 			</ul>
-			<div class="login">登陆</div>
+			<div class="login">市场数据</div>
 		</div>
 	</div>
 </template>
