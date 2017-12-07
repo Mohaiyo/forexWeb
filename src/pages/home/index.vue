@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="home">
 		<div class="banners">
 			<img src="/src/assets/images/index-banner1.jpeg" alt="">
 		</div>
@@ -51,7 +51,7 @@
 import 'swiper/dist/css/swiper.css'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 export default {
-  name: 'footer',
+  name: 'index',
   data () {
     return {
       swiperOption: {
@@ -92,5 +92,8 @@ export default {
      .swiper-slide{
         width: 330px !important;
      }
+  }
+  .home{
+    margin-bottom: 50px;
   }
 </style>

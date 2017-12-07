@@ -126,7 +126,7 @@ html, body {
     width: 120px;
     overflow: hidden;
     border-radius: 6px;
-    border: 1px solid #ff6200;
+    /*border: 1px solid #ff6200;*/
 }
 
 .nav .nav-inner .sub-ul li {
