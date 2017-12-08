@@ -22,26 +22,26 @@
     			<div class="a"><h1>APP功能介绍</h1></div>
     			<div class="a" style="float: right;">
     				<h1>关于我们</h1>
-    				<a href="about2.html">蚂蚁外汇介绍</a>
+    				<router-link to="/home/aboutUs/1">蚂蚁外汇介绍</router-link>
     				<a>STP交易模式</a>
     				<a>常见问题</a>
     			</div>
     			<div class="a" style="float: right;">
     				<h1>半小时学外汇</h1>
-    				<a href="#">外汇交易的优势</a>
-    				<a href="#">基础知识</a>
-    				<a href="#">如何阅读图表</a>
-    				<a href="#">交易示例</a>
-    				<a href="#">交易外汇最佳时间</a>
-    				<a href="#">从蚂蚁外汇开始交易</a>
+    				<router-link to="/home/halfAnhour/0">外汇交易的优势</router-link>
+    				<router-link to="/home/halfAnhour/1">基础知识</router-link>
+    				<router-link to="/home/halfAnhour/2">如何阅读图表</router-link>
+    				<router-link to="/home/halfAnhour/4">交易示例</router-link>
+    				<router-link to="/home/halfAnhour/5">交易外汇最佳时间</router-link>
+    				<router-link to="#">从蚂蚁外汇开始交易</router-link>
     				<a >来自专业人事的十大建议</a>
     			</div>
     			<div class="a">
     				<h1>交易品种</h1>
-    				<a href="#">外汇</a>
-    				<a href="#">原油</a>
-    				<a href="#">贵金属</a>
-    				<a href="#">CFD</a>
+    				<router-link to="/home/tradeType/1">外汇</router-link>
+    				<router-link to="/home/tradeType/2">原油</router-link>
+    				<router-link to="/home/tradeType/0">贵金属</router-link>
+    				<router-link to="/home/tradeType/3">CFD</router-link>
     			</div>
     			<div class="a" style="float: right;    margin-top: -140px;">
     				<h1>风险提示</h1>

@@ -28,12 +28,11 @@ export default new Router({
       component: Home,
       children: [
         { path: '', redirect: 'index' },
-        { path: 'index', component: Index, alias: '/a' },
-        { path: 'intro', component: Intro },
-        { path: 'intro/:id', component: Intro },
-        { path: 'halfAnhour', component: HalfAnhour },
-        { path: 'tradeType', component: TradeType },
-        { path: 'aboutUs', component: AboutUs }
+        { path: 'index', component: Index, alias: '/a', name: 'index' },
+        { path: 'intro/:id', component: Intro, name: 'intro' },
+        { path: 'halfAnhour/:id', component: HalfAnhour, name: 'halfAnhour' },
+        { path: 'tradeType/:id', component: TradeType, name: 'tradeType' },
+        { path: 'aboutUs/:id', component: AboutUs, name: 'aboutUs' }
       ]
     }
   ]
