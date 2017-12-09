@@ -58,10 +58,9 @@ html, body {
 
 .nav .nav-inner .logo {
     float: left;
-    padding-top: 15px;
-    margin-right: 40px;
+    padding-top: 5px;
+    margin: 0 80px;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     cursor: pointer;
 }
@@ -214,7 +213,7 @@ html, body {
 }
 
 .footer .inner .left .l .logo {
-    padding: 50px 0;
+    padding: 10px 20px;
 }
 
 .footer .inner .left .l p {

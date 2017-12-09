@@ -3,26 +3,26 @@
     	<div class="inner">
     		<div class="left">
     			<div class="l">
-    				<div class="logo"><img src="/src/assets/images/foot-logo.png" alt=""></div>
+    				<div class="logo"><img src="/src/assets/images/logo4.png" alt=""></div>
     				<p>联系我们：<br><span>0571-5823 9809</span></p>
     				<p>会员QQ群：643152314</p>
-    				<p>微信客服：mayiforex</p>
+    				<p>微信客服：forex</p>
     			</div>
     			<div class="c">
-    				<p>蚂蚁外汇IOS下载</p>
+    				<p>外汇咖IOS下载</p>
     				<img src="/src/assets/images/QRcode-IOS.jpg" alt="">
     			</div>
     			<div class="s">
-    				<p>蚂蚁外汇安卓下载</p>
+    				<p>外汇咖安卓下载</p>
     				<img src="/src/assets/images/QRcode-IOS.jpg" alt="">
     			</div>
-    			<div class="b">Copyright © 2017 杭州喜财网络科技有限公司 版权所有 ｜ 浙ICP备17022232号</div>
+    			<div class="b">Copyright © 2017 杭州顺意网络科技有限公司 版权所有 ｜ 浙ICP备17022232号</div>
     		</div>
     		<div class="right">
     			<div class="a"><h1>APP功能介绍</h1></div>
     			<div class="a" style="float: right;">
     				<h1>关于我们</h1>
-    				<router-link to="/home/aboutUs/1">蚂蚁外汇介绍</router-link>
+    				<router-link to="/home/aboutUs/1">外汇咖介绍</router-link>
     				<a>STP交易模式</a>
     				<a>常见问题</a>
     			</div>
@@ -33,7 +33,7 @@
     				<router-link to="/home/halfAnhour/2">如何阅读图表</router-link>
     				<router-link to="/home/halfAnhour/4">交易示例</router-link>
     				<router-link to="/home/halfAnhour/5">交易外汇最佳时间</router-link>
-    				<router-link to="#">从蚂蚁外汇开始交易</router-link>
+    				<router-link to="#">从外汇咖开始交易</router-link>
     				<a >来自专业人事的十大建议</a>
     			</div>
     			<div class="a">

@@ -20,7 +20,7 @@
           <swiper-slide class="swiper-slide slide3">
             <h1>顶级券商</h1>
             <span class="line2"></span>
-            <p>蚂蚁外汇与国际知名券商合作，国际市场，每天5万亿以上成交量。</p>
+            <p>外汇咖与国际知名券商合作，国际市场，每天5万亿以上成交量。</p>
           </swiper-slide>
           <swiper-slide class="swiper-slide slide4">
             <h1>操作简单</h1>
