@@ -2,7 +2,7 @@
 	<div class="nav">
 		<div class="nav-inner">
 			<div class="logo">
-				<a href="/"><img src="/src/assets/images/logo3.png" alt=""></a>
+				<a href="/"><img src="../../assets/images/logo3.png" alt=""></a>
 			</div>
 			<ul class="nav-list">
 				<li :class="{ cur : $route.path.indexOf(menuitem.link) !== -1 }" v-for="(menuitem,index) of menuList" @click.stop="menuHandler(menuitem.link)" :key="index">

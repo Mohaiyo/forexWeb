@@ -3,20 +3,21 @@
     	<div class="inner">
     		<div class="left">
     			<div class="l">
-    				<div class="logo"><img src="/src/assets/images/logo4.png" alt=""></div>
-    				<p>联系我们：<br><span>0571-5823 9809</span></p>
+    				<div class="logo"><img src="../../assets/images/logo4.png" alt=""></div>
+                    <!-- <p>联系我们：<br><span>0571-5823 9809</span></p> -->
+    				<p>联系我们：<br><span>18578262007</span></p>
     				<p>会员QQ群：643152314</p>
-    				<p>微信客服：forex</p>
+    				<p>微信客服：外汇咖</p>
     			</div>
     			<div class="c">
     				<p>外汇咖IOS下载</p>
-    				<img src="/src/assets/images/QRcode-IOS.jpg" alt="">
+    				<img src="../../assets/images/QRcode-IOS.jpg" alt="">
     			</div>
     			<div class="s">
     				<p>外汇咖安卓下载</p>
-    				<img src="/src/assets/images/QRcode-IOS.jpg" alt="">
+    				<img src="../../assets/images/QRcode-IOS.jpg" alt="">
     			</div>
-    			<div class="b">Copyright © 2017 杭州顺意网络科技有限公司 版权所有 ｜ 浙ICP备17022232号</div>
+    			<div class="b">Copyright © 2017 杭州顺意网络科技有限公司 版权所有 code By Lwy</div>
     		</div>
     		<div class="right">
     			<div class="a"><h1>APP功能介绍</h1></div>

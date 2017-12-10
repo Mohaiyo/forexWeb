@@ -1,10 +1,10 @@
 <template>
 	<div>
 		<div class="banners" v-show="$route.params.id == 0">
-		    <img src="/src/assets/images/list-banner2.jpg" alt="">
+		    <img src="../../assets/images/list-banner2.jpg" alt="">
 		</div>
-		<div class="banners" v-show="$route.params.id !== 0 ">
-		    <img src="/src/assets/images/list-banner1.jpg" alt="">
+		<div class="banners" v-show="$route.params.id == 1 || $route.params.id == 2 ||　$route.params.id == 3 ||　$route.params.id == 4  ">
+		    <img src="../../assets/images/list-banner1.jpg" alt="">
 		</div>
 		<div class="content-list">
 		    <div class="aside">
@@ -20,7 +20,7 @@
 		            <li class="title"><a >商务合作</a></li>
 		            <li class="tel">
 		                <p>真诚期待您的来电</p>
-		                <h1>0571-58239809</h1>
+		                <h1>18578262007</h1>
 		            </li>
 		        </ul>
 		    </div>
@@ -33,7 +33,7 @@
 
 		            <p>您可以通过外汇咖直接在外汇交易券商30秒快速开户，目前支持券商"老虎外汇"，更多券商也在对接中敬请期待；</p>
 		            <p>如何开户：打开外汇咖APP，点击底部菜单"<span>账户</span>"，进入个人中心页面，点击"<span>立即开户</span>"按钮。</p>
-		            <img src="/src/assets/images/intro1.jpg" alt="">
+		            <img src="../../assets/images/intro1.jpg" alt="">
 		        </div>
 		    </div>
 		    <div class="main" v-show="$route.params.id == 1">
@@ -47,7 +47,7 @@
 
 		            <p>图2</p>
 
-		            <img src="/src/assets/images/intro2.jpg" alt="">
+		            <img src="../../assets/images/intro2.jpg" alt="">
 		        </div>
 		    </div>
 		    <div class="main" v-show="$route.params.id == 2">
@@ -60,7 +60,7 @@
 		            <p>查看交易行情操作：外汇咖APP首页；点击底部菜单“交易”；点击交易品种进入。</p>
 		            <p>（图3）</p>
 
-		            <img src="/src/assets/images/intro3.jpg" alt="">
+		            <img src="../../assets/images/intro3.jpg" alt="">
 		        </div>
 		    </div>
 		    <div class="main" v-show="$route.params.id == 3">
@@ -72,7 +72,7 @@
 		            <p>想要进行交易还必须在您开户的券商（老虎外汇）账户内充值，主流银行卡都支持；</p>
 		            <p>充值操作：外汇咖APP首页，点击底部菜单“ 账户 ”，进入个人中心页面；-点击“充值”按钮。</p>
 		            <p>（图4）</p>
-		            <img src="/src/assets/images/intro4.jpg" alt="">
+		            <img src="../../assets/images/intro4.jpg" alt="">
 		        </div>
 		    </div>
 		    <div class="main" v-show="$route.params.id == 4">
@@ -84,7 +84,7 @@
 		            <p>平仓是指卖出您手上的持仓；</p>
 		            <p>平仓操作：外汇咖APP首页；点击底部菜单“ 持仓 ”；进入持仓详情页面；点击“卖出”按钮。</p>
 		            <p>（图5）</p>
-		            <img src="/src/assets/images/intro5.jpg" alt="">
+		            <img src="../../assets/images/intro5.jpg" alt="">
 		        </div>
 		    </div>
 		</div>
